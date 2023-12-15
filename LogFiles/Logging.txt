@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 44.0,
+        "lng": 30.0
+    },
+    "accuracy": 40,
+    "name": "Anubhav Gupta",
+    "phone_number": "7078466107",
+    "address": "Amestredam House, Eletronic City, Phase 1, Banglore",
+    "types": [
+        "Shoes",
+        "Books"
+    ],
+    "website": "http://google.com",
+    "language": "Hindi"
+}
+HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 11:12:01 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "ac936d0a10edaaff5c31f18d30797c7d",
+    "scope": "APP",
+    "reference": "12d2cc9079c8c89845412c4cd809b69312d2cc9079c8c89845412c4cd809b693",
+    "id": "12d2cc9079c8c89845412c4cd809b693"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=ac936d0a10edaaff5c31f18d30797c7d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=ac936d0a10edaaff5c31f18d30797c7d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 11:12:02 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 251
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "44",
+        "longitude": "30"
+    },
+    "accuracy": "40",
+    "name": "Anubhav Gupta",
+    "phone_number": "7078466107",
+    "address": "Amestredam House, Eletronic City, Phase 1, Banglore",
+    "types": "Shoes,Books",
+    "website": "http://google.com",
+    "language": "Hindi"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "ac936d0a10edaaff5c31f18d30797c7d"
+}
+HTTP/1.1 200 OK
+Date: Fri, 15 Dec 2023 11:12:03 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
